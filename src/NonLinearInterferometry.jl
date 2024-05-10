@@ -1,5 +1,7 @@
 module NonLinearInterferometry
 
-# Write your package code here.
+include("NonlinearMedium.jl")
+
+export NonlinearMedium, BiNonlinearMedium
 
 end

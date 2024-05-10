@@ -1,6 +1,9 @@
-using NonLinearInterferometry
-using Test
+names = [
+    "NonlinearMedium_test.jl"
+]
 
-@testset "NonLinearInterferometry.jl" begin
-    # Write your tests here.
+for name=names
+    if endswith(name, "_test.jl")
+        include(name)
+    end
 end

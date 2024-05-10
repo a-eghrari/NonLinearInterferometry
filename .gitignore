@@ -1,1 +1,3 @@
 /Manifest.toml
+src/Master.jl
+src/SPDC.jl
